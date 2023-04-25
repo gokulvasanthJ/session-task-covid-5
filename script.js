@@ -1,7 +1,5 @@
 var div=document.createElement("div")
 div.id=("div-container")
-div.style.display="flex"
-div.style.justifyContent="center"
 div.style.width="100%"
 div.style.height="100vh"
 
@@ -10,18 +8,14 @@ div.style.height="100vh"
 var input=document.createElement("input")
 input.setAttribute("type","text")
 input.style.width="30%";
-input.style.height="25px"
-input.style.margin="5px";
 input.id="countryname"
 
 
 
 var button=document.createElement("button")
 button.setAttribute("type","button")
-button.style.height="30px"
 button.innerHTML="Click Me";
 button.style.margin="5px";
-button.style.border="solid black 1px"
 button.addEventListener("click",getdata);
 
 var active=document.createElement("div")
